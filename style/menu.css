@@ -1,0 +1,75 @@
+header
+{       background: #404040;
+        padding-top: 10px;
+        padding-bottom: 10px;
+     
+        width:100%;
+        position: sticky;
+		left:0;
+		top:-1px; 
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+  box-shadow:
+    0 0 5em black;
+    z-index: 1;
+}
+header>img{
+    align-self: center;
+}
+#menu{
+    align-self:center;
+padding-left:25px;
+    
+}
+.bar1,.bar2,.bar3 {
+border-radius:5px;
+  width: 47px;
+  height: 7px;
+  background-color: white;
+  margin: 9px 0;
+  transition: 0.4s;
+}
+
+
+
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}.sidenav a {
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+body{
+	margin-left: auto;
+    margin-right: auto;
+    margin-top:auto;
+    text-align:bottom;
+    background-color: bisque;
+}
+footer{
+background-color:white;
+	display : table-row;
+	height: 100px; /* à titre d'exemple */
+}
