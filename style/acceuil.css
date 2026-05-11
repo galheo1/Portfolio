@@ -9,9 +9,6 @@
     grid-template-columns: 1fr 1fr ;
     transform: translate(0, 100px);
 }
-body{
-    text-align: center;
-}
 .photo{
     width: 100%;
     overflow: hidden;
