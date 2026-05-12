@@ -1,12 +1,12 @@
 .main {
     
     padding: 10px;
-    width: 70%;
+    width: 1024px;
     display: flex;
   flex-direction: column;
     margin:auto;
 
-  justify-content: space-between; /* ou flex-end */
+  justify-content: space-between;
   text-align: center;
 }
 .martiniere{
@@ -17,18 +17,18 @@
     grid-template-columns: 1fr 1fr ;
 
 }
-.upLeft{
+.upLeftM{
     text-align: left;
     transform: translate(30px);
     padding-left:120px;
     font-size: 25px;
 
 }
-.upLeft a{
+.upLeftM a{
     color: black;
 
 }
-.upRight{
+.upRightM{
     text-align: right;
     padding-left: 150px;
     padding-right: 15px;
@@ -40,15 +40,43 @@
     margin-top: auto;
     color: white;
 }
-.Left{
+.LeftM{
     font-size: 25px;
     padding-right: 50px;
 }
-.Left a{
+.LeftM a{
     color: white;
 }
-.Right{
+.RightM{
     transform: translate(-80px);
     font-size: 20px;
 
+}
+.rameau{
+    height: 576PX;
+    display: grid;
+
+    grid-template-columns: 1fr 1fr ;
+    padding-top: 15px;
+
+}
+.LeftR{
+
+}
+.RightR{
+    overflow: hidden;
+}
+.rameau img{
+  width: 100%;
+  height: auto;
+
+
+}
+.rameau p{
+    margin: 0px;
+}
+#text{
+  pointer-events: none;
+  position: sticky;
+    position: relative;
 }
