@@ -13,9 +13,14 @@ const img = document.getElementById("imageR");
 
 const hT = text.clientHeight;
 const wI = img.clientWidth-div.clientWidth;
-let hD;
+let hD
 
-
+img.addEventListener('load', function() {
+  hD = img.clientHeight;
+  console.log("Hauteur de l'image:", hD);
+text.style.top = -hD + "px";
+});
+sleep(1000);
 
 const h1 = img.clientHeight;
 
@@ -33,8 +38,6 @@ console.log(h1, h2, h3, h4);
 console.log(hT, div.clientHeight, div.clientWidth, text.clientHeight, img.clientHeight, img.clientWidth, img.getBoundingClientRect().height);
 console.log(hT, hD, wI);
 console.log(text.offsetTop, div.offsetTop, text.offsetTop-div.offsetTop);
-div.style.height = hT + "px";
 //text.style.transform = "translateY(" + (-hi) + "px)";
 //text.style.transform = "translateY(" + (-hT) + "px)";
-text.style.top = -hD + "px";
-img.style.transform = "translateX(" + (-wI) + "px)";
+img.style.transform = "translate(" + (-wI) + "px, -80px)";

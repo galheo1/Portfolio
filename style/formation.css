@@ -61,21 +61,30 @@
 
 }
 .LeftR{
+    font-size: 20px;
+    padding: 20px;
+    text-align: left;
 
 }
 .RightR{
+    overflow: hidden;
+    height:300px
 }
 .rameau img{
-  width: 150%;
-  height: auto;
+  width: 170%;
 
 
 }
 .rameau p{
     margin: 0px;
 }
+.rameau h1{
+    margin: 0px;
+    font-size: 40px;
+}
 #text{
   pointer-events: none;
     position: relative;
     padding: 10px;
+    font-size: 20px;
 }
