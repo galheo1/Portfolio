@@ -8,12 +8,12 @@ function sleep(millis)
 
 function openNav() {
           document.getElementById("mySidenav").style.width = "200px";
-    console.log("holaaa");
+    //console.log("holaaa");
         }
 
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
-    console.log("holassaa");
+    //console.log("holassaa");
 }
 
 function getPositionY(a) {
@@ -23,7 +23,7 @@ function getPositionY(a) {
     const rect = elem.getBoundingClientRect();
     const posY = rect.top + window.scrollY-100;
 
-    console.log("Position Y de l'élément #a :", posY);
+    //console.log("Position Y de l'élément #a :", posY);
 
     return posY;
 }
@@ -39,29 +39,29 @@ function scrolla(elem) {
 
 let mouseOnMenu=false;
 function animon(x){
-    console.log("in1");
+    //console.log("in1");
     x.classList.toggle("in");   
-    console.log("in2");
+    //console.log("in2");
     mouseOnMenu=false;
     sleep(100);
 }
 function animoff(x){
-    console.log("out");
+    //console.log("out");
     mouseOnMenu=true;
 
 }
 function launch(){
     while (true){
         if (mouseOnMenu){
-            console.log("in1");
+            //console.log("in1");
             document.getElementById("menu").className = "in"; 
-            console.log("in2");
+            //console.log("in2");
             mouseOnMenu=false;
             sleep(100);
 
         }
         else{
-            console.log("out");
+            //console.log("out");
             document.getElementById("menu").className = "out"; 
         }
     }

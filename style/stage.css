@@ -1,0 +1,7 @@
+.dates{
+    transition: 0.5s;
+    color:red;
+    height: 0px;
+    overflow: hidden;
+
+}
