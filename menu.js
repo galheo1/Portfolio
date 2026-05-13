@@ -21,7 +21,7 @@ function getPositionY(a) {
 
     // Récupération de la position par rapport à la page
     const rect = elem.getBoundingClientRect();
-    const posY = rect.top + window.scrollY-220;
+    const posY = rect.top + window.scrollY-100;
 
     console.log("Position Y de l'élément #a :", posY);
 

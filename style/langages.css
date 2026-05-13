@@ -1,0 +1,52 @@
+
+.links img{
+    height: 175px;
+    padding-top: 50px;
+    padding-right: 30px;
+}
+.links img:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+    cursor:Pointer;
+}
+.TimeLine{
+    padding:245px;
+    text-align:justify;
+    font-size: 25px;
+    
+
+}
+.part{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+}
+.presentation{
+    padding-left:200px;
+    padding-right:200px;
+    padding-bottom: 200px;
+    font-size: 25px;
+
+}
+.presentation img{
+    height: 175px;
+}
+#html img{
+    padding-right: 75px;
+    padding-left: 75;
+}
+.up{
+    position: sticky;
+    text-align: left;
+    font-size: 30px;
+    padding-left: 50px;
+    bottom:20px
+}
+.up p{
+    margin-right: 100%;
+}
+.up p:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 0.2s;
+}

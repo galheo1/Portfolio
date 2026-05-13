@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Galvani Théo</title>
+        <link rel="stylesheet" href="style/main.css">
+        <link rel="stylesheet" href="style/menu.css">
+        <link rel="stylesheet" href="style/langages.css">
+        <script src="menu.js"></script>
+   </head> 
+   <body>
+      <header>
+            <div id="mySidenav" class="sidenav">
+              <a href="javascript:menu.js" class="closebtn" onclick="closeNav()">&times;</a>
+              <a href="main.html">Acceuil</a>
+              <a href="formation.html">Formation</a>
+              <a href="stage.html">Stage</a>
+            </div>
+            <div class="out" id="menu" onclick="openNav()" onmouseover="mouseOnMenu=true">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        </header>
+
+        <div class="links" id="up">
+            <img class="python" src="assets/logo/python.png" onclick="scrolla('python')"/>
+            <img class="python" src="assets/logo/cpp.png" onclick="scrolla('cpp')"/>
+            <img class="python" src="assets/logo/cs.png" onclick="scrolla('cs')"/>
+            <img class="python" src="assets/logo/html.png" onclick="scrolla('html')"/>
+            <img class="python" src="assets/logo/js.png" onclick="scrolla('html')"/>
+            <img class="python" src="assets/logo/css.png" onclick="scrolla('html')"/>
+        </div>
+        <div class="TimeLine">
+            <div class="part">
+                <p>Aujourd'hui</p>
+                <ul>
+                    <li>Actuellement en BTS SIO option SLAM, je découvre de nouveaux langages comme le HTML, javascripte ou encore C#</li>
+                </ul>
+            </div>
+            <div class="part">
+                <p>2020-Aujourd’hui</p>
+                <ul>
+                    <li>Ma plus grande expérience en programmation est sur python, où j’ai commencé en 2020. J’ai effectué de multiples projets, comme une IA sur un morpion, ou encore diverses mini-jeux.</li>
+                </ul>
+            </div>
+            <div class="part">
+                <p>2018</p>
+                <ul>
+                    <li>J’ai aussi pratiqué de l’arduino où j’ai eu quelques projets comme un compteur kilométrique pour un rallye routier.</li>
+                </ul>
+            </div>
+            <div class="part">
+                <p>2016</p>
+                <ul>
+                    <li>L’algorythmie par bloque (Scratch, Mblock) a été le premier langage avec lequel j’ai commencé, à l’âge de mes 9ans où j’ai effectué quelques projets, comme un morpion, agar.io ou encore un jeu de tir en 2D.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="presentation" id="python">
+            <img class="python" src="assets/logo/python.png"/>
+            <p>Ma plus grande expérience en programmation est sur python, où j’ai commencé en 2020. J’ai effectué de multiples projets, comme une IA sur un morpion, ou encore diverses mini-jeux.</p>
+
+        </div>
+        <div class="presentation" id="cpp">
+            <img class="python" src="assets/logo/cpp.png"/>
+            <p>Je me suis initié récement au langage C++, ....</p>
+        </div>
+        <div class="presentation" id="cs">
+            <img class="python" src="assets/logo/cs.png"/>
+            <p>MLe langage C# est un langage actuellement étudier pendant le BTS. C’est un langage qui ressemble beacoup au c++.<p>
+        </div>
+        <div class="presentation" id="html">
+            <img class="python" src="assets/logo/html.png"/>
+            <img class="python" src="assets/logo/js.png"/>
+            <img class="python" src="assets/logo/css.png"/>
+            <p>Le langage HTML est un des premiers langages vus durant le BTS avec le Javascripte et le CSS, qui ont étés utilisés en harmonie pour créer diverses projets.</p>
+
+        </div>
+        <div class="up">
+            <p onclick="scrolla('up')">▲</p>
+        </div>
+   </body>
+</html>
