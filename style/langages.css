@@ -37,13 +37,13 @@
 }
 .up{
     position: sticky;
-    text-align: left;
+    text-align: right;
     font-size: 30px;
-    padding-left: 50px;
+    padding-right: 50px;
     bottom:20px
 }
 .up p{
-    margin-right: 100%;
+    margin-left: 100%;
 }
 .up p:hover{
     cursor: pointer;
