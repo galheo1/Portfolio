@@ -1,7 +1,17 @@
 .dates{
     transition: 0.5s;
-    color:red;
     height: 0px;
     overflow: hidden;
 
+}
+.btn{
+    cursor: pointer;
+}
+.semaine{
+    width: 440px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom-color: black;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
 }

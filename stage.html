@@ -5,8 +5,8 @@
         <link rel="stylesheet" href="style/main.css">
         <link rel="stylesheet" href="style/menu.css">
         <link rel="stylesheet" href="style/stage.css">
-        <script src="menu.js"></script>
         <script src="stage.js"></script>
+        <script src="menu.js"></script>
    </head> 
    <body>
       <header> 
@@ -15,9 +15,10 @@
               <a href="main.html">acceuil</a>
               <a href="formation.html">Formation</a>
               <a href="langages.html">Langages</a>
-              <a href="javascript:stage.js" onclick="show()" id="button">dates ᐱ</a>
+              <a onclick="show()" id="button" class="btn">dates ᐱ</a>
               <div class="dates" id="list">
-                  <a href="javascript:menu.js" onclick="scrolla('a')">a</a>
+                  <a class="btn" onclick="scrolla('1')">Semaine 1</a>
+                  <a class="btn" onclick="scrolla('2')">Semaine 2</a>
               </div>
             </div>
             <div class="out" id="menu" onclick="openNav()" onmouseover="mouseOnMenu=true">
@@ -26,5 +27,13 @@
                 <div class="bar3"></div>
             </div>
         </header>
+      <div class="semaine" id="1">
+         <h1><u>Semaine 1</u></h1>
+         <p>Durant la première semaine de stage, première prise en contacte avec le tuteur de stage.<br>Attente de réponse</p>
+      </div>
+      <div class="semaine" id="2">
+         <h1><u>Semaine 2</u></h1>
+         <p>Durant la deuxième semaine de stage, relance du tuteur de stage.<br>Attente de réponses pour connaitre les missions proposées.</p>
+      </div>
    </body>
 </html>
